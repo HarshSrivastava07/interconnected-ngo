@@ -1,0 +1,20 @@
+/* Apply these styles to the images within the carousel */
+ngb-carousel img {
+    max-width: 50%; /* Ensure images do not exceed their container width */
+    height: auto; /* Maintain image aspect ratio */
+    display: block; /* Remove extra spacing around the image */
+    margin: 0 auto; /* Center the image horizontally */
+  }
+  
+  /* Apply these styles to the ngb-carousel component */
+  ngb-carousel {
+    max-width: 70%; /* Set the maximum width of the carousel */
+    margin: 10vh auto; /* Center the carousel horizontally */
+    padding: 20px; /* Add spacing around the carousel if needed */
+    background-color: #D5F0C1; /* Set a background color for the carousel container */
+    border: 1px solid #ddd; /* Add a border to the carousel container if needed */
+    border-radius: 5px; /* Apply border-radius for rounded corners if desired */
+  }
+
+
+  

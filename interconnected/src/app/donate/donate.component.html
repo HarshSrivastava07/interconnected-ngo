@@ -1,0 +1,32 @@
+<div class="payment-container">
+  <h1 class="payment-title">Payment Form</h1>
+  <form (submit)="handleSubmit()" class="payment-form">
+    <label for="name" class="label">Name</label>
+    <input type="text" id="name" name="name" class="input-field" required>
+
+    <label for="contactNumber" class="label">Contact Number</label>
+    <input type="tel" id="contactNumber" name="contactNumber" class="input-field" required>
+
+    <label for="card" class="label">Card details</label>
+    <div id="card-element" class="card-element">
+      <!-- A Stripe Element will be inserted here. -->
+    </div>
+
+    <div id="card-errors" role="alert" class="error-message"></div>
+
+    <button type="submit" class="submit-button">Submit Payment</button>
+  </form>
+</div>
+
+<div class="image-container">
+  <div class="image-wrapper">
+    <img src="assets/qr_mock_phone.jpg" alt="" class="image move-to-left">
+  </div>
+  <div class="image-wrapper">
+    <img src="assets/interconnected_qrCode.jpg" alt="" class="image move-to-right">
+  </div>
+</div>
+
+<div class="footer-container">
+  <app-footer></app-footer>
+</div>

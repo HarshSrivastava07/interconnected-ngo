@@ -1,0 +1,36 @@
+.footer {
+    background-color: #AAD9BB; 
+    // 3652AD#cbd7d7; /* Set the background color to your preference */
+    color: #fff; /* Text color (white in this example) */
+    padding: 20px; /* Add padding for spacing */
+  
+    /* Center the content in the footer */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  
+  /* Style the contact information */
+  .footer .contact-info {
+    margin-bottom: 20px; /* Add space below the contact information */
+  }
+  
+  /* Style the social media icons and links */
+  .footer .social-media-icons {
+    margin-bottom: 20px; /* Add space below the social media icons */
+  }
+  
+  .footer .social-media-icons span {
+    margin: 0 10px; /* Add space between social media icons */
+  }
+  
+  /* Style the "with 💛 by Lala" text */
+  .footer .credit-text {
+    font-size: 14px; /* Adjust the font size as needed */
+  }
+
+  #text1{
+    color: black;
+  }
+  
